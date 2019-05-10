@@ -105,5 +105,57 @@ public void location(int map)
 				dragon1=true;
 			}
 	}
+	else if (currentlocation==5) //Qohor
+		if (map==1) {
+		System.out.println("AHHH you tried to cross the Narrow Sea without a boat and drowned!!");
+		end=true;
+		}
+		else if(map==2){
+		System.out.println("You have arrived in Astapor.");
+		currentlocation=6;
+		}
+		else if(map==4){
+		System.out.println("You are back in Meereen.");
+		currentlocation=3;
+		}
+		else if(map==3){
+		System.out.println("AHHH you tried to cross the Narrow Sea without a boat and drowned!!");
+		end=true;
+		}
+
+	else if (currentlocation==6) //Astapor
+		if (map==1) {
+		System.out.println("You are back in Qohor.");
+		}
+		else if(map==2){
+		System.out.println("There is nothing to see.");
+		}
+		else if(map==4){
+		System.out.println("AHHH you tried to cross the Narrow Sea without a boat and drowned!!");
+		end=true;
+		}
+		else if(map==3){
+		System.out.println("AHHH you tried to cross the Narrow Sea without a boat and drowned!!");
+		end=true;
+		}
+
+	else if (currentlocation==2) //Iron Bank
+		if (map==1){
+		System.out.println("AHHH you tried to cross the Narrow Sea without a boat and drowned!!");
+		end=true;
+		}
+		else if(map==2){
+		System.out.println("You are back in Vass Dothrak.");
+		currentlocation=1;
+		}
+		else if(map==4){
+		System.out.println("There is nothing to see.");
+		}
+		else if(map==3){
+		System.out.println("AHHH you tried to cross the Narrow Sea without a boat and drowned!!");
+		end=true;
+		}
+
+
 }}
 	
