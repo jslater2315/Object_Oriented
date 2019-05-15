@@ -27,7 +27,7 @@ import java.util.Scanner;
 	
 	System.out.println("Congratulations "+ player + ", Khaleesi trusts you to guide her on her quest!");
 	System.out.println("In order to take the Iron Throne, you must gain the loyalty of the realm and invade King's Landing.");
-	System.out.println("To complete your journey you need to acquire the following items: \n1.Boat \n2.6 Banners \n3.Army");
+	System.out.println("To complete your journey you need to acquire the following items: \n1.Boat \n2.4 Banners \n3.Army \n4.Gold \n5.Dragons \n6.Drogo");
 	
 	System.out.println("___________________________________________________________________________________________________");
 			
